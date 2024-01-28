@@ -1,0 +1,19 @@
+[gd_scene load_steps=2 format=3 uid="uid://l1plvoh60s06"]
+
+[ext_resource type="Texture2D" uid="uid://cdouowujalje4" path="res://gameTextures/inventory/square.png" id="1_1cy7w"]
+
+[node name="InvUiSlot" type="Panel"]
+modulate = Color(0, 0.784314, 1, 1)
+self_modulate = Color(1, 1, 1, 0)
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = -1059.0
+offset_bottom = -558.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.247222, 0.247222)
+texture = ExtResource("1_1cy7w")
+centered = false

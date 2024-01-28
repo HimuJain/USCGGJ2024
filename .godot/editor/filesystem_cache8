@@ -1,0 +1,43 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1706433376
+black.jpg::CompressedTexture2D::3056174438363803021::1706400153::1706433171::1::::<><>::
+icon.svg::CompressedTexture2D::7670783504101187259::1706397081::1706433171::1::::<><>::
+level.tscn::PackedScene::3251645921521683784::1706433310::0::1::::<><>::uid://bjso0m66xpq7f::::res://black.jpg<>uid://bh043dahpsu7x::::res://placeholder/Terrain (16x16).png<>uid://ch3ecogvaksll::::res://main_character.tscn
+main.tscn::PackedScene::1190610088485825134::1706427762::0::1::::<><>::uid://bmleesbq4auom::::res://level.tscn<>uid://banqkp6mbg1xb::::res://userinterface.tscn
+main_character.gd::GDScript::-1::1706433316::0::1::::<>CharacterBody2D<>::
+main_character.tscn::PackedScene::-1::1706433321::0::1::::<><>::
+userinterface.gd::GDScript::-1::1706433339::0::1::::<>Control<>::
+userinterface.tscn::PackedScene::2414247760605207671::1706433332::0::1::::<><>::
+::res://gameTextures/::1706433339
+::res://gameTextures/backgrounds/::1706433355
+background.png::CompressedTexture2D::8994489838421590185::1706433339::1706433355::1::::<><>::
+::res://gameTextures/gameplay/::1706433354
+door_animation.png::CompressedTexture2D::8241778052507727966::1706433339::1706433354::1::::<><>::
+::res://gameTextures/inventory/::1706433171
+Baseball_bat.png::CompressedTexture2D::7888397214194799018::1706415889::1706433171::1::::<><>::
+square.png::CompressedTexture2D::5013549714646287169::1706418511::1706433171::1::::<><>::
+::res://gameTextures/playeranimation/::1706432997
+::res://gameTextures/userInterface/::1706427792
+::res://gameTextures/userInterface/volumebar/::1706433171
+progressbackground.png::CompressedTexture2D::6792937552335687243::1706408426::1706433171::1::::<><>::
+progressfront.png::CompressedTexture2D::2684955338740500639::1706408426::1706433171::1::::<><>::
+::res://inventory/::1706432436
+::res://inventory/items/::1706420717
+bat.tres::Resource/Resource::6713472772586223907::1706420717::0::1::::<><>::res://inventory/ui/inventoryitem.gd<>uid://dkng0qsu4qa0i::::res://gameTextures/inventory/Baseball_bat.png
+::res://inventory/scripts/::1706420707
+inventory.gd::GDScript::-1::1706416628::0::1::::Inv<>Resource<>::
+::res://inventory/ui/::1706422624
+inventoryitem.gd::GDScript::-1::1706414962::0::1::::InvItem<>Resource<>::
+invui.tscn::PackedScene::7378796098855962602::1706422624::0::1::::<><>::uid://l1plvoh60s06::::res://inventory/ui/inv_ui_slot.tscn
+inv_ui_slot.tscn::PackedScene::826682625226454737::1706422624::0::1::::<><>::uid://cdouowujalje4::::res://gameTextures/inventory/square.png
+playerinv.tres::Resource/Resource::7579461700389174186::1706420707::0::1::::<><>::res://inventory/scripts/inventory.gd
+::res://placeholder/::1706433171
+Terrain (16x16).png::CompressedTexture2D::2931162985939261831::1706400153::1706433171::1::::<><>::
+::res://placeholder/Characters/::1706433171
+Double Jump (32x32).png::CompressedTexture2D::1192274352589236271::1706400153::1706433171::1::::<><>::
+Fall (32x32).png::CompressedTexture2D::522883505590525660::1706400153::1706433171::1::::<><>::
+Hit (32x32).png::CompressedTexture2D::6500569627976111942::1706400153::1706433171::1::::<><>::
+Idle (32x32).png::CompressedTexture2D::781092504146880135::1706400153::1706433171::1::::<><>::
+Jump (32x32).png::CompressedTexture2D::2770198869749448301::1706400153::1706433171::1::::<><>::
+Run (32x32).png::CompressedTexture2D::7498967728524394507::1706400153::1706433171::1::::<><>::
+Wall Jump (32x32).png::CompressedTexture2D::8696205198548475504::1706400153::1706433171::1::::<><>::
