@@ -1,72 +1,15 @@
-[gd_scene load_steps=7 format=3 uid="uid://banqkp6mbg1xb"]
+[gd_scene load_steps=4 format=3 uid="uid://banqkp6mbg1xb"]
 
-[ext_resource type="Texture2D" uid="uid://hpj2ycrppt1u" path="res://placeholder/Characters/Fall (32x32).png" id="1_m6wpv"]
+[ext_resource type="Script" path="res://userinterface.gd" id="1_g5cfh"]
 [ext_resource type="Texture2D" uid="uid://c31sxorq0l1q2" path="res://gameTextures/userInterface/volumebar/progressbackground.png" id="2_2rir3"]
 [ext_resource type="Texture2D" uid="uid://beiu27n4srqkd" path="res://gameTextures/userInterface/volumebar/progressfront.png" id="3_v8q88"]
-[ext_resource type="Script" path="res://volumeBar.cs" id="4_32vlh"]
-
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_fmqbn"]
-bg_color = Color(0.937255, 0.411765, 0.372549, 1)
-border_width_left = 5
-border_width_top = 5
-border_width_right = 5
-border_width_bottom = 5
-border_color = Color(1, 1, 1, 1)
-corner_radius_top_left = 6
-corner_radius_top_right = 6
-corner_radius_bottom_right = 6
-corner_radius_bottom_left = 6
-shadow_size = 11
-
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_c84gg"]
-bg_color = Color(1, 1, 1, 1)
-corner_radius_top_left = 4
-corner_radius_top_right = 4
-corner_radius_bottom_right = 4
-corner_radius_bottom_left = 4
 
 [node name="UI" type="Control"]
 layout_mode = 3
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
-
-[node name="UserInfoBox" type="Panel" parent="."]
-layout_mode = 1
-offset_left = 26.0
-offset_top = 25.0
-offset_right = 674.0
-offset_bottom = 213.0
-theme_override_styles/panel = SubResource("StyleBoxFlat_fmqbn")
-
-[node name="AvatarFrame" type="Panel" parent="UserInfoBox"]
-layout_mode = 1
-anchors_preset = 4
-anchor_top = 0.5
-anchor_bottom = 0.5
-offset_left = 21.0
-offset_top = -74.0
-offset_right = 159.0
-offset_bottom = 73.0
-grow_vertical = 2
-theme_override_styles/panel = SubResource("StyleBoxFlat_c84gg")
-
-[node name="Avatar" type="TextureRect" parent="UserInfoBox/AvatarFrame"]
-texture_filter = 1
-layout_mode = 1
-anchors_preset = 8
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-offset_left = -61.0
-offset_top = -60.5
-offset_right = 61.0
-offset_bottom = 61.5
-grow_horizontal = 2
-grow_vertical = 2
-texture = ExtResource("1_m6wpv")
-expand_mode = 1
+script = ExtResource("1_g5cfh")
 
 [node name="volumeBar" type="TextureProgressBar" parent="."]
 layout_mode = 0
@@ -75,8 +18,7 @@ offset_top = 54.0
 offset_right = 1200.0
 offset_bottom = 1054.0
 scale = Vector2(0.5, 0.5)
-value = 32.0
+max_value = 1000.0
 fill_mode = 3
 texture_under = ExtResource("2_2rir3")
 texture_progress = ExtResource("3_v8q88")
-script = ExtResource("4_32vlh")

@@ -1,34 +1,20 @@
-[gd_scene load_steps=6 format=3 uid="uid://ch3ecogvaksll"]
+[gd_scene load_steps=4 format=3 uid="uid://ch3ecogvaksll"]
 
-[ext_resource type="Script" path="res://main_character.cs" id="1_hcs2w"]
+[ext_resource type="Script" path="res://main_character.gd" id="1_08rfp"]
 [ext_resource type="Texture2D" uid="uid://hpj2ycrppt1u" path="res://placeholder/Characters/Fall (32x32).png" id="1_v6i3f"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_gqhyp"]
 size = Vector2(77, 97)
 
-[sub_resource type="Animation" id="Animation_dbhno"]
-resource_name = "walk"
-
-[sub_resource type="AnimationLibrary" id="AnimationLibrary_4r3h6"]
-_data = {
-"walk": SubResource("Animation_dbhno")
-}
-
 [node name="CharacterBody2D" type="CharacterBody2D"]
-position = Vector2(-8, -1)
-script = ExtResource("1_hcs2w")
+script = ExtResource("1_08rfp")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(8, -5)
+position = Vector2(65, 468)
 shape = SubResource("RectangleShape2D_gqhyp")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 texture_filter = 1
-position = Vector2(6, -7)
+position = Vector2(61, 467)
 scale = Vector2(3, 3)
 texture = ExtResource("1_v6i3f")
-
-[node name="AnimationPlayer" type="AnimationPlayer" parent="Sprite2D"]
-libraries = {
-"": SubResource("AnimationLibrary_4r3h6")
-}
