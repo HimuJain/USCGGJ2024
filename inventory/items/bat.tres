@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="InvItem" load_steps=3 format=3 uid="uid://c2wb6ethm6xsl"]
+
+[ext_resource type="Script" path="res://inventory/ui/inventoryitem.gd" id="1_6br0a"]
+[ext_resource type="Texture2D" uid="uid://dkng0qsu4qa0i" path="res://gameTextures/inventory/Baseball_bat.png" id="2_302vp"]
+
+[resource]
+script = ExtResource("1_6br0a")
+name = "Bat"
+texture = ExtResource("2_302vp")

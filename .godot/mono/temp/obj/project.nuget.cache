@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "vASDiyllMetsiUmE4RXhh3uPJg2ZeGGis6MT3MofSioG9V/bSbBkV+K2n1fUx658FgTT8UBirRPBxhGRMChBRw==",
+  "success": true,
+  "projectFilePath": "/Users/himanshujain/coDing/GameJam 2024/Game Jam 2024.csproj",
+  "expectedPackageFiles": [
+    "/Users/himanshujain/.nuget/packages/godot.sourcegenerators/4.2.1/godot.sourcegenerators.4.2.1.nupkg.sha512",
+    "/Users/himanshujain/.nuget/packages/godotsharp/4.2.1/godotsharp.4.2.1.nupkg.sha512",
+    "/Users/himanshujain/.nuget/packages/godotsharpeditor/4.2.1/godotsharpeditor.4.2.1.nupkg.sha512"
+  ],
+  "logs": []
+}
